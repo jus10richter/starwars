@@ -1,20 +1,32 @@
+/* Main stylesheet for Star Wars website. */
 html {
-font-family: "Calibri", "Helvetica", sans-serif;
+  font-family: "Calibri", "Helvetica", sans-serif;
+}
 
+/*
+Oh man, this is a long comment.
+*/
+a {
+  color: yellow !important;
+  text-decoration: none;
+}
 
-a:hover{
+a:hover {
   text-decoration: underline;
 }
 
-section,aside {
-  float:left;
+section, aside {
+  float: left;
 }
 
 section {
-  width: 55%;
-<!-- not sure what the heck to add here-->
-
+  width: 70%;
 }
 
+aside {
+  width: 30%;
+}
 
+img {
+  width: 100%;
 }
